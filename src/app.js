@@ -10,7 +10,8 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { RootProvider } from './store';
 
 const MasterLayout = lazy(() => import('./layouts/masterLayout'));
-const LandingPage = lazy(() => import('./containers/LandingPage'));
+const Home = lazy(() => import('./containers/Home'));
+const Product = lazy(() => import('./containers/Product'));
 const useStyles = makeStyles(theme => ({
   progress: {
     margin: theme.spacing(2),
@@ -38,7 +39,8 @@ const App = () => {
         <MasterLayout>
           <BrowserRouter>
             <Switch>
-              <Route exact path="/" component={LandingPage} />
+              <Route exact path="/" component={Home} />
+              <Route exact path="/product" component={Product} />
             </Switch>
           </BrowserRouter>
         </MasterLayout>
