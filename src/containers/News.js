@@ -23,7 +23,7 @@ import linkedinLogo from '../static/images/linkedin-logo.png';
 import news from '../static/images/news.png';
 // import news1 from '../static/images/news1.png';
 // import news2 from '../static/images/news2.png';
-import news3 from '../static/images/news3.png'
+import news3 from '../static/images/news3.png';
 
 const Home = lazy(() => import('./Home'));
 const Product = lazy(() => import('./Product'));
@@ -257,8 +257,8 @@ const ProductPage = (props) => {
                   <Card className={classes.subCard}>
                     <CardMedia
                       className={classes.subCover}
-                      image={avatar}
-                      title={news3}
+                      image={news3}
+                      title="Title"
                     />
                     <div className={classes.subDetails}>
                       <CardContent className={classes.subContent}>
