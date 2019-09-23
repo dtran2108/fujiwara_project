@@ -226,7 +226,7 @@ const ProductPage = (props) => {
                   </CardActionArea>
                   <CardActions>
                     <Button size="small" color="primary">
-                      Learn More
+                      {t('learn_more')}
                     </Button>
                   </CardActions>
                 </Card>
