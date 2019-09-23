@@ -20,7 +20,10 @@ import TextField from '@material-ui/core/TextField';
 import facebookLogo from '../static/images/facebook-logo.png';
 import twitterLogo from '../static/images/twitter-logo.png';
 import linkedinLogo from '../static/images/linkedin-logo.png';
-import avatar from '../static/images/avatar-2.jpg';
+import news from '../static/images/news.png';
+// import news1 from '../static/images/news1.png';
+// import news2 from '../static/images/news2.png';
+import news3 from '../static/images/news3.png'
 
 const Home = lazy(() => import('./Home'));
 const Product = lazy(() => import('./Product'));
@@ -221,7 +224,7 @@ const ProductPage = (props) => {
                   <Card className={classes.card}>
                     <CardMedia
                       className={classes.cover}
-                      image={avatar}
+                      image={news}
                       title="News Title"
                     />
                     <div className={classes.details}>
@@ -255,7 +258,7 @@ const ProductPage = (props) => {
                     <CardMedia
                       className={classes.subCover}
                       image={avatar}
-                      title="News Title"
+                      title={news3}
                     />
                     <div className={classes.subDetails}>
                       <CardContent className={classes.subContent}>
