@@ -104,6 +104,7 @@ const ProductPage = (props) => {
       position: 'absolute',
       top: '7%',
       left: '5%',
+      zIndex: 2,
     },
     dense: {
       marginTop: 19,
@@ -118,6 +119,7 @@ const ProductPage = (props) => {
       top: '2.5%',
       left: '3%',
       fontFamily: 'Roboto',
+      zIndex: 2,
     },
     companyLogo: {
       marginRight: '40px',
@@ -153,6 +155,7 @@ const ProductPage = (props) => {
       position: 'absolute',
       display: 'flex',
       left: '5%',
+      zIndex: 1,
     },
   }));
   const { t } = props;
